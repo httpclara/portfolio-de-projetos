@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatarclara.png" alt="avatar da Clara" class="rounded-circle" width="145" height="150" srcset="">
+       <p class="lead">Meu nome é Clara</p>
+        <h1>Eu estudo Programação</h1>
+        <p>Sou estudante do ensino médio, atualmente estou cursando o segundo ano de exatas. Gosto e me interesso muito pela área de TI, 
+            por isso, estou buscando aprimorar e desenvolver novas habilidades sobre isso.</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary" >Scratch</p>
+            <p class="badge bg-secondary" >Figma</p>
+            <p class="badge bg-secondary" >p5js</p>
+        </div>
+    </header>
+
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card" >
+                    <img src="img/projeto1.png" class="card-img-top" alt="imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                      <h5 class="card-title">Minha Biblioteca Virtual: Protótipo </h5>
+                      <p class="card-text">Esse projeto é um protótipo de uma biblioteca virtual. Foi meu primeiro projeto no Figma. É a interface de um possível app.
+
+                      </p>
+                      <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>
+                    </div>
+                  </div>
+            </div>
+
+        <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card" >
+                    <img src="img/projeto2.png" class="card-img-top" alt="imagem do projeto de app de comida">
+                    <div class="card-body">
+                      <h5 class="card-title">Meu app de comida: Protótipo </h5>
+                      <p class="card-text">Neste projeto, tentei fazer o protótipo de um app no estilo do ifood. Também é a interface de um possível app.
+
+                      </p>
+                      <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja o projeto</button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </main>
+
+
+        <!-- Modal 1 -->
+<div class="modal" id="modal1" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Minha Biblioteca Virtual: Protótipo</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Esse projeto é um protótipo de uma biblioteca virtual. Foi meu primeiro projeto no Figma. É a interface de um possível app.
+                    
+                </p>
+            <img src="img/projeto1.png" alt="Imagem representativa do projeto de uma biblioteca virtual" class="img-fluid">
+            </div>
+            <div class="modal-footer">
+              <a href="">Ver projeto ao vivo</a>
+              <a href="">Ver código do projeto</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+         <!-- Modal 2 -->
+<div class="modal" id="modal2" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Meu app de comida: Protótipo</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Neste projeto, tentei fazer o protótipo de um app no estilo do ifood. Também é a interface de um possível app.
+                    
+                </p>
+            <img src="img/projeto2.png" alt="Imagem representativa do projeto de um app de comida" class="img-fluid">
+            </div>
+            <div class="modal-footer">
+              <a href="">Ver projeto ao vivo</a>
+              <a href="">Ver código do projeto</a>
+            </div>
+        </div>
+    </div>
+</div>
+</main>
+
+    <footer class="container py-5">
+    <h2>Entre em contato</h2>
+    <div>
+        <i class="bi bi-github"></i>
+        <a href="https://github.com/httpclara">GitHub</a>
+    </div>
+    <p class="my-5 text-center">© Copyright 2025. Produzido por Clara Thomas Barbosa</p>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
